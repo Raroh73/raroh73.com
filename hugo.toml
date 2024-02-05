@@ -1,0 +1,49 @@
+baseURL = "https://raroh73.com/"
+title = "Raroh73"
+enableGitInfo = true
+enableRobotsTXT = true
+pluralizelisttitles = false
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 4
+
+[params]
+author = "Raroh73"
+description = "Personal website about everything and nothing but mostly nothing. Coding, gaming, memes and other boring things."
+avatar = "/avatar.avif"
+privacy = "/privacy-policy"
+
+[[params.social]]
+name = "Github"
+icon = "github"
+weight = 1
+url = "https://github.com/Raroh73"
+
+[[params.social]]
+name = "Mastodon"
+icon = "mastodon"
+weight = 2
+url = "https://mastodon.social/@raroh73"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+weight = 3
+url = "/blog/index.xml"

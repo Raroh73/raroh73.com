@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="home">
+  <img class="avatar" src="{{ .Site.Params.avatar }}" alt="Avatar" />
+  <h1>{{ .Site.Title }}</h1>
+  <div class="socials-container">
+    {{ $social := .Site.Params.social }} {{ range $social }}
+    <a rel="me" href="{{ .url }}">
+      <img
+        class="socials-icon"
+        src="https://cdn.simpleicons.org/{{ .icon }}/222222/DDDDDD"
+        alt="{{ .name }}"
+      />
+    </a>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

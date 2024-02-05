@@ -1,0 +1,8 @@
+<footer class="footer">
+  <p>
+    Copyright &copy; {{ dateFormat "2006" now }} {{ .Site.Params.author }}. {{
+    if .Site.Params.privacy }}<a href="{{ .Site.Params.privacy }}"
+      >Privacy policy.</a
+    >{{ end }}
+  </p>
+</footer>

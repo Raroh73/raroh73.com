@@ -1,0 +1,149 @@
+:root {
+  --background: #dddddd;
+  --text: #222222;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "Roboto", sans-serif;
+  max-width: 720px;
+  margin: auto;
+}
+
+.menu {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-element {
+  margin: 10px;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+a {
+  color: var(--text);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 100px);
+}
+
+.avatar {
+  width: 256px;
+  height: 256px;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-icon {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+}
+
+.tag {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 100px);
+}
+
+.image {
+  height: auto;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.cookies-dialog {
+  position: fixed;
+  background: inherit;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-radius: 8px;
+  border-style: solid;
+}
+
+.cookies-dialog[open] {
+  bottom: 0;
+}
+
+.cookies-button {
+  margin: 10px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: inherit;
+  width: 75px;
+  height: 25px;
+  background: var(--text);
+  color: var(--background);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #222222;
+    --text: #dddddd;
+  }
+}
