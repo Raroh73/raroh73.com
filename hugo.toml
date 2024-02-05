@@ -27,7 +27,7 @@ weight = 4
 [params]
 author = "Raroh73"
 description = "Personal website about everything and nothing but mostly nothing. Coding, gaming, memes and other boring things."
-avatar = "/avatar.avif"
+avatar = "/avatar.jpg"
 privacy = "/privacy-policy"
 
 [[params.social]]
