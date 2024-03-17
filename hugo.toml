@@ -19,11 +19,6 @@ name = "About"
 url = "/about"
 weight = 3
 
-[[menu.main]]
-name = "Projects"
-url = "/projects"
-weight = 4
-
 [params]
 author = "Raroh73"
 description = "Personal website about everything and nothing but mostly nothing. Coding, gaming, memes and other boring things."
